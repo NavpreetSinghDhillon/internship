@@ -1,0 +1,51 @@
+/* src/components/Filters/Filters.module.css */
+.filtersContainer {
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+  width: 250px;
+  flex-shrink: 0;
+  background-color: #f8f8f8;
+  height: calc(100vh - 60px); /* Adjust based on header height */
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.filtersContainer h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.filterSection {
+  margin-bottom: 25px;
+}
+
+.filterSection h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #555;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.filterItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.95em;
+  color: #444;
+  cursor: pointer;
+}
+
+.filterItem input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #008bdc; /* Internshala blue */
+  transform: scale(1.1);
+}
+
+.filterItem:hover {
+  color: #008bdc;
+}

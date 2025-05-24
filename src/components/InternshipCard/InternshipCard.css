@@ -1,0 +1,87 @@
+/* src/components/InternshipCard/InternshipCard.module.css */
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.freshTag {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #e6f7ff; /* Light blue */
+  color: #008bdc; /* Internshala blue */
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.profileName {
+  font-size: 1.3em;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.companyName {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.detailItem .icon {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.postedOn {
+  font-size: 0.85em;
+  color: #999;
+}
+
+.viewDetailsBtn {
+  background-color: #008bdc; /* Internshala blue */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.viewDetailsBtn:hover {
+  background-color: #006bbd;
+}
